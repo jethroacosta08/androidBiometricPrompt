@@ -3,13 +3,13 @@
 PROJECT_DIR="$( cd ../"$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 OUTPUT_DIR="${PROJECT_DIR}/automation/jenkins"
 
-#BUILD VARIANT
-BUILD_VARIANT="debug"
+#BUILD TYPE
+BUILD_TYPE="debug"
 if [ -z "$1" ]
 then
-      BUILD_VARIANT=debug
+      BUILD_TYPE=debug
 else
-      BUILD_VARIANT=$1
+      BUILD_TYPE=$1
 fi
 
 #Enter project directory
@@ -40,22 +40,22 @@ print_blue "\ncleanBuildCache...\n"
 print_blue "\nBuilding...\n"
 ./gradlew build
 
-if [ "$BUILD_VARIANT" == "debug" ]; then
+if [ "$BUILD_TYPE" == "debug" ]; then
   	print_blue "\nassembleDebug...\n"
 	./gradlew assembleDebug
-elif [ "$BUILD_VARIANT" == "release" ]; then
+elif [ "$BUILD_TYPE" == "release" ]; then
 	print_blue "\nassembleRelease...\n"
 	./gradlew assembleRelease
 else
-	print_red "Invalid Build Variant!!!"
+	print_red "Invalid Build Type!!!"
 	exit
 fi
 
 #Copy APK to output folder
-if [ "$BUILD_VARIANT" == "debug" ]; then
+if [ "$BUILD_TYPE" == "debug" ]; then
   mv "$PROJECT_DIR"/app/build/outputs/aar/app-debug.aar  "$OUTPUT_DIR/app-debug.aar"
-elif [ "$BUILD_VARIANT" == "release" ]; then
-	mv "$PROJECT_DIR"/app/build/outputs/aar/app-release.aar "$OUTPUT_DIR/app-debug.aar"
+elif [ "$BUILD_TYPE" == "release" ]; then
+	mv "$PROJECT_DIR"/app/build/outputs/aar/app-release.aar "$OUTPUT_DIR/app-release.aar"
 fi
 
 print_blue "\nMoving AAR to output directory Done\n"
