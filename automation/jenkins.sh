@@ -1,7 +1,7 @@
 #!/bin/sh
 #CONSTANTS HERE
 PROJECT_DIR="$( cd ../"$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-OUTPUT_DIR="${PROJECT_DIR}/automation/output"
+OUTPUT_DIR="${PROJECT_DIR}/automation/jenkins"
 
 #BUILD VARIANT
 BUILD_VARIANT="debug"
@@ -60,7 +60,3 @@ fi
 
 print_blue "\nMoving AAR to output directory Done\n"
 print_blue "\nOUTPUT DIR : $OUTPUT_DIR\n"
-
-#Enter output directory
-cd $OUTPUT_DIR
-open .
