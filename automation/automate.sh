@@ -53,9 +53,9 @@ fi
 
 #Copy APK to output folder
 if [ "$BUILD_VARIANT" == "debug" ]; then
-	cp "$PROJECT_DIR"/app/build/outputs/aar/app-debug.aar $OUTPUT_DIR
+	cp "$PROJECT_DIR"/app/build/outputs/aar/app-jenkins-debug.aar $OUTPUT_DIR
 elif [ "$BUILD_VARIANT" == "release" ]; then
-	cp "$PROJECT_DIR"/app/build/outputs/aar/app-release.aar $OUTPUT_DIR
+	cp "$PROJECT_DIR"/app/build/outputs/aar/app-jenkins-release.aar $OUTPUT_DIR
 fi
 print_blue "\nCopying AAR to output Done\n"
 
