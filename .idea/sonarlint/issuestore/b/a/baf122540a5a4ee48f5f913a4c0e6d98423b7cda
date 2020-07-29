@@ -1,0 +1,32 @@
+
+^squid:UselessImportCheck"3Remove this unused import 'javax.crypto.SecretKey'.(±•¸×8ð•Å®‡.
+squid:S00116&"`Rename this field "BIOMETRIC_DESCRIPTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ýÓ­8šÕø«‡.
+usquid:S00117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”âªðùÿÿÿÿ8‹Äª«‡.
+usquid:S1450 "WRemove the "executor" field and declare it as a local variable in the relevant methods.(äü¥ 8†ð»ª‡.
+rsquid:S00100t"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—®ÉÝúÿÿÿÿ8–Ûû«‡.
+msquid:S00100d"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÕÏ8‹Äª«‡.
+squid:UselessImportCheck"TRemove this unused import 'android.security.keystore.UserNotAuthenticatedException'.(ý™Í¬8ßäÇ­‡.
+isquid:UselessImportCheck">Remove this unused import 'javax.crypto.spec.IvParameterSpec'.(­“§8ð•Å®‡.
+rsquid:S00100`"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áê³Ïüÿÿÿÿ8‹Äª«‡.
+|squid:S1450!"^Remove the "biometricPrompt" field and declare it as a local variable in the relevant methods.(’ŠÃÊ8¼˜ë­‡.
+usquid:S00117t"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—®ÉÝúÿÿÿÿ8–Ûû«‡.
+rsquid:S00100P"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ç¿Ìûÿÿÿÿ8‹Äª«‡.
+rsquid:S00100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”âªðùÿÿÿÿ8‹Äª«‡.
+fsquid:UselessImportCheck"6Remove this unused import 'javax.crypto.KeyGenerator'.(ÑÃ’§ÿÿÿÿÿ8ð•Å®‡.
+\"squid:SwitchLastCaseIsDefaultCheck5""Add a default case to this switch.(´–òûÿÿÿÿ8µœª‡.
+psquid:S00117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÕÏ8‹Äª«‡.
+wsquid:S1450""YRemove the "promptInfo" field and declare it as a local variable in the relevant methods.(š¦«™8¼˜ë­‡.
+usquid:UselessImportCheck"JRemove this unused import 'android.security.keystore.KeyGenParameterSpec'.(æí›¥8‘ÂÅ®‡.
+psquid:S00117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Þœ·8‹Äª«‡.
+msquid:S00100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Þœ·8‹Äª«‡.
+|squid:S00116%"^Rename this field "BIOMETRIC_SUB_TITLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öË¹8ÃŠ¨«‡.
+esquid:UselessImportCheck"5Remove this unused import 'java.nio.charset.Charset'.(ü¶ØŸýÿÿÿÿ8àÕž®‡.
+squid:S00116'"iRename this field "BIOMETRIC_NEGATIVE_BUTTON_TEXT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÂ¨­ûÿÿÿÿ8ÃŠ¨«‡.
+msquid:S00100p"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Žêƒ8–Ûû«‡.
+osquid:UselessImportCheck"DRemove this unused import 'android.security.keystore.KeyProperties'.(èî±¥8‘ÂÅ®‡.
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¿é•¶
+msquid:S00100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï“È8‹Äª«‡.
+nsquid:UselessImportCheck">Remove this unused import 'java.security.InvalidKeyException'.(ì£ð»ÿÿÿÿÿ8ð•Å®‡.
+`squid:UselessImportCheck"0Remove this unused import 'javax.crypto.Cipher'.(ç‡‡³øÿÿÿÿ8ð•Å®‡.
+~squid:S00116$"ZRename this field "BIOMETRIC_TITLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ú•Úÿÿÿÿÿ8Ó×¢«‡.
+]squid:UselessImportCheck"3Remove this unused import 'java.security.KeyStore'.(ïººW8ð•Å®‡.
