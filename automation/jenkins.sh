@@ -2,6 +2,7 @@
 #CONSTANTS HERE
 PROJECT_DIR="$( cd ../"$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 OUTPUT_DIR="${PROJECT_DIR}/automation/jenkins"
+BRANCH="develop"
 
 #BUILD TYPE
 BUILD_TYPE="debug"
@@ -28,6 +29,8 @@ print_yellow(){
 print_blue(){
     printf "\e[1;34m$1\e[0m"
 }
+
+print_blue "\nBuilding from $BRANCH branch...\n"
 
 #Start Clean Process
 print_blue "\nStarting"
