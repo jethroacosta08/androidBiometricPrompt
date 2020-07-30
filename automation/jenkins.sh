@@ -56,7 +56,9 @@ fi
 
 #Clean output folder
 print_blue "\nDeleting old artifacts in output folder...\n"
-rm -v "$OUTPUT_DIR/*"
+cd "$OUTPUT_DIR"
+rm  *.aar
+cd ..
 
 #Copy APK to output folder
 mv "$PROJECT_DIR"/app/build/outputs/aar/app-release.aar "$OUTPUT_DIR/app-$BUILD_TYPE.aar"
