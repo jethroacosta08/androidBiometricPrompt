@@ -51,12 +51,12 @@ else
 	exit
 fi
 
+#Clean output folder
+print_blue "\nDeleting old artifacts in output folder...\n"
+rm -v "$OUTPUT_DIR/*"
+
 #Copy APK to output folder
-if [ "$BUILD_TYPE" == "debug" ]; then
-  mv "$PROJECT_DIR"/app/build/outputs/aar/app-debug.aar  "$OUTPUT_DIR/app-debug.aar"
-elif [ "$BUILD_TYPE" == "release" ]; then
-	mv "$PROJECT_DIR"/app/build/outputs/aar/app-release.aar "$OUTPUT_DIR/app-release.aar"
-fi
+mv "$PROJECT_DIR"/app/build/outputs/aar/app-release.aar "$OUTPUT_DIR/app-$BUILD_TYPE.aar"
 
 print_blue "\nMoving AAR to output directory Done\n"
 print_blue "\nOUTPUT DIR : $OUTPUT_DIR\n"
